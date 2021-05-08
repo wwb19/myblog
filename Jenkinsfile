@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'Jenkins_slave_practice'
+      label 'Jenkins_slave_hexo'
     }
   }
  /*triggers {
@@ -13,9 +13,9 @@ pipeline {
          timestamps()
     }
   environment { 
-    def HTTP_PROXY="http://192.168.2.123:4411"
-    def HTTPS_PROXY="http://192.168.2.123:4411"
-    def all_proxy="socks5://192.168.2.123:4411"
+    def HTTP_PROXY="http://192.168.2.118:10080"
+    def HTTPS_PROXY="http://192.168.2.118:10080"
+    def all_proxy="socks5://192.168.2.118:10080"
 	  
     GITHUB_TOKEN=credentials('98f28b74-a03f-432e-a2a9-18cf52150e4a')
     
