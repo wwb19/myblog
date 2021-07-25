@@ -14,7 +14,7 @@ copyright: true
 
 
 # Note
->本文用于Redis的部署安装
+>本文用于Redis的部署安装test
 >配置文件内容需根据实际情况进行设置
 >本文为Sentinel哨兵模式的集群搭建，若需Cluster集群模式，可查看Redis安装部署内容，集群安装不适合。
 <!-- more --> 
